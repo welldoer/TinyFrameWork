@@ -1,4 +1,4 @@
-//addons:
+addons:
 //  sonarcloud:
 //    organization: "welldoer-github"
 //    token:
@@ -11,7 +11,7 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3 # give xvfb some time to start
 
-//script:
+script:
 //  - gradle check
 //  - cat /home/travis/build/welldoer/TinyFramework/build/test-results/test/TEST-net.blogjava.*.xml
 //  - sonar-scanner
